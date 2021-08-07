@@ -160,10 +160,30 @@
         "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.vision/3.0.1\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.7.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities\\1.7.0"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "6.0.1",
+      "Dependencies": []
+    },
     "BitMiracle.Docotic.Pdf": {
       "Id": "BitMiracle.Docotic.Pdf",
       "Version": "7.5.11645",
@@ -625,6 +645,11 @@
       "Version": "1.8.8",
       "Dependencies": []
     },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.3.1",
+      "Dependencies": []
+    },
     "SharpZipLib": {
       "Id": "SharpZipLib",
       "Version": "1.2.0",
@@ -1014,9 +1039,41 @@
           "Item2": "[2.7.3, )"
         }
       ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.7.0",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[6.0.1, )"
+        },
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.3.1, )"
+        }
+      ]
     }
   },
   "AllPackages": [
+    {
+      "Package": {
+        "Id": "AvalonEdit",
+        "Version": "6.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\avalonedit\\6.0.1\\lib\\net45\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\avalonedit\\6.0.1"
+    },
     {
       "Package": {
         "Id": "BitMiracle.Docotic.Pdf",
@@ -1425,6 +1482,16 @@
     },
     {
       "Package": {
+        "Id": "RestSharp",
+        "Version": "106.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\restsharp\\106.3.1\\lib\\net452\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\restsharp\\106.3.1"
+    },
+    {
+      "Package": {
         "Id": "SharpZipLib",
         "Version": "1.2.0"
       },
@@ -1720,6 +1787,18 @@
         "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.vision\\3.0.1\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.vision\\3.0.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.7.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities\\1.7.0\\lib\\net461\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities\\1.7.0\\lib\\net461\\UiPath.Web.Activities.dll",
+        "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities\\1.7.0\\lib\\net461\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\bentchikou3\\.nuget\\packages\\uipath.webapi.activities\\1.7.0"
     }
   ]
 }
